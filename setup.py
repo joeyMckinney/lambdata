@@ -13,9 +13,9 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="lambdata-joeymckinney",
-    version="0.0.2",
-    authoer="joeymckinney",
+    name="lambdata-jmckinney",
+    version="0.0.3",
+    authoer="jmckinney",
     description='A collection of Data Science help functions',
     long_description=LONG_DESCRIPTION,
     long_description_content='text/markdown',
@@ -29,4 +29,3 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ]
 )
-
