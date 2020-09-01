@@ -4,7 +4,8 @@ import setuptools
 
 REQUIRED = [
     "numpy",
-    "pandas"
+    "pandas",
+    "sklearn"
 ]
 
 with open("README.md", "r") as fh:
@@ -13,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-joeymckinney",
-    version="0.0.1",
+    version="0.0.2",
     authoer="joeymckinney",
     description='A collection of Data Science help functions',
     long_description=LONG_DESCRIPTION,
@@ -25,7 +26,7 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
-        'Operation system :: OS Independent',
+        'Operating System :: OS Independent',
     ]
 )
 
