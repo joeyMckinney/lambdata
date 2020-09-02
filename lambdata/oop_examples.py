@@ -32,19 +32,19 @@ class MountainBike(Bicycle):
         self.suspension_brand = str(suspension_brand)
 
 
-        def going_offroad(self):
-            return 'Mountain bikes are best for dirt roads'
+    def going_offroad(self):
+        return 'Mountain bikes are best for dirt roads'
         
 
-        def petaling_fast(self):
-            return 'Sending it!'
+    def petaling_fast(self):
+        return 'Sending it!'
 
 
-        def smooth_ride(self):
-            if self.suspension_count <= 1:
-                return 'this is bumpy ride'
-            else:
-                return 'this ride is smooth'
+    def smooth_ride(self):
+        if self.suspension_count <= 1:
+            return 'this is bumpy ride'
+        else:
+            return 'this ride is smooth'
 
 
 if __name__ == '__main__':
