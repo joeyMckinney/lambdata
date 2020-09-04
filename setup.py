@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-jmckinney",
-    version="0.0.7",
+    version="0.0.9",
     author="jmckinney",
     description='A collection of Data Science help functions',
     long_description=LONG_DESCRIPTION,
